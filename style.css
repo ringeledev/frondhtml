@@ -1,0 +1,103 @@
+header {
+    color: pink;
+    padding: 50px;
+    text-align:left;
+    display: flex;
+    justify-content: space-between;
+    height: 0px;
+    background-color: rgb(57, 57, 214);
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 120px ;
+    margin-right: 10px ;
+} 
+
+.footer {
+    background-color:forestgreen;
+    color: black;
+    text-align: center;
+    font: optional;
+    padding: 16px;
+}
+
+
+.body {
+    background-color: rebeccapurple;
+    color: darkmagenta;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 1000;
+    padding-right: 14px;
+}
+
+nav a:hover {
+    color: white
+}
+
+.cuerpo {
+    background-color: rgb(129, 72, 182);
+    color: aliceblue;
+}
+
+.video {
+    grid-column: 8/10;
+    padding: 0.5em;
+    }
+
+.contenedor {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.elemento {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
+
+* { 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: open sans-serif;
+}
+
+.gokubody {
+    display: flex;
+    justify-content: right;
+    align-items: right ;
+    
+}
+
+.Freezer {
+    display: flex;
+    justify-content: left;
+    align-items: left ;
+    
+}
